@@ -1,8 +1,37 @@
 # Sticky Notes App README
 
-## Overview
+## Table of Contents
 
-The Sticky Notes App is a simple yet powerful application built with Django that allows users to create, read, update, and delete digital sticky notes. Each note can have a title, content, creation timestamp, and last modification timestamp. Users can easily navigate through their notes, edit them, or delete them as needed.
+### Introduction
+- **Overview/Description**
+
+### Key Sections
+- **Features**
+    - Note Creation
+    - Note Listing
+    - Note Detail
+    - Note Editing
+    - Note Deletion
+    - User Interface
+
+- **Getting Started**
+    - **Installation**
+        - Prerequisites
+        - Setup Steps
+    - **Usage**
+
+- **Contributing**
+
+- **License**
+
+### Additional Resources
+- **Credits**
+    - Acknowledgments and Thanks
+
+## Overview/Description
+
+The Sticky Notes App is a straightforward yet impactful application developed with Django, enabling users to create, read, update, and delete digital sticky notes. Each note includes a title, content, creation timestamp, and last modification timestamp, facilitating easy navigation, editing, and deletion of notes. Understanding and implementing CRUD operations in web development, as demonstrated by the Sticky Notes App, is vital because it lays the groundwork for most web applications' functionality. It enhances problem-solving skills, accelerates development processes, and ensures security and scalability, making it a cornerstone of effective web development. Learning how to utilise the Django framework has been important because it equips you with the skills to develop efficient, scalable, and secure web applications quickly and cost-effectively. It opens up opportunities for career advancement and offers a solid foundation for further exploration in web development. 
+
 
 ## Features
 
@@ -54,6 +83,25 @@ bash python manage.py runserver
 
    Open your web browser and visit `http://127.0.0.1:8000/`.
 
+
+8. **Create a superuser**
+
+   If you want to access the Django admin interface, you can create a superuser account with the following command:
+
+(Note: When creating a superuser the password field will remain blank while you are typing the password, Django is in    fact accepting your input.)
+
+   python manage.py createsuperuser
+
+   1. In Username add admin
+   2. In email add your email example@email.com
+   3. in passowrd type your password
+   4. in password (again) retype your password
+
+   Run migrations and start the server
+
+   Open your web browser and visit `http://127.0.0.1:8000/`.
+   To access the admin interface, visit 'http://127.0.0.1:8000/admin/'.
+
 ## Usage
 
 Once the server is running, you can perform various operations such as creating, viewing, editing, and deleting notes through the web interface.
@@ -71,3 +119,8 @@ Contributions to the Sticky Notes App are welcome. Please feel free to submit pu
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## Credits
+
+This project was developed by Simon Mills
+
