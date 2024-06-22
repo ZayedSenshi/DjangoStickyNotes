@@ -1,6 +1,6 @@
-# Sticky Notes App README
+# Sticky Notes App README :notebook_with_decorative_cover:
 
-## Table of Contents
+## Table of Contents :orange_book:
 
 ### Introduction
 - **Overview/Description**
@@ -22,7 +22,6 @@
 
 - **Contributing**
 
-- **License**
 
 ### Additional Resources
 - **Credits**
@@ -102,13 +101,28 @@ bash python manage.py runserver
    Open your web browser and visit `http://127.0.0.1:8000/`.
    To access the admin interface, visit 'http://127.0.0.1:8000/admin/'.
 
+   The admin page will look like this:
+   ![admin page](https://github.com/ZayedSenshi/codingTasks/blob/master/Screenshots/Django%20admin.png)
+
+   You can also create users by clicking on 'Users' under the 'Authentication and Authorization' heading: 
+    ![admin users](https://github.com/ZayedSenshi/codingTasks/blob/master/Screenshots/admin_users.png)
+
+
 ## Usage
 
 Once the server is running, you can perform various operations such as creating, viewing, editing, and deleting notes through the web interface.
+   Open your web browser and visit `http://127.0.0.1:8000/`.
 
-- To create a new note, click on the "Create a New Note" link on the main page.
-- To view a list of all notes, simply visit the main page.
-- To view the details of a specific note, click on the note's title from the list.
+
+- To create a new note, click on the "Create a New Note" link on the main page. Your screen should now look like this: 
+  ![create note](https://github.com/ZayedSenshi/codingTasks/blob/master/Screenshots/note_create.png)
+
+- To view a list of all notes, simply visit the main page. By default, `http://127.0.0.1:8000/` will take you to this page. Alternatively, when creating or editing a note, you can navigate back to this page by clicking the hyperlink 'Back to Notes list' It should look like this:
+  ![list note](https://github.com/ZayedSenshi/codingTasks/blob/master/Screenshots/note_list.png)
+
+- To view the details of a specific note, click on the note's title from the list. It will look like this: 
+  ![view note](https://github.com/ZayedSenshi/codingTasks/blob/master/Screenshots/note_detail.png)
+
 - To edit a note, click on the "Edit Note" link below the note's details.
 - To delete a note, click on the "Delete Note" link below the note's details.
 
@@ -116,9 +130,6 @@ Once the server is running, you can perform various operations such as creating,
 
 Contributions to the Sticky Notes App are welcome. Please feel free to submit pull requests or report issues through the GitHub repository.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ## Credits
 
